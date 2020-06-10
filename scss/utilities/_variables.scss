@@ -9,3 +9,23 @@ $white: #fff;
 $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
 
+// button colors
+
+$button-colors:(
+    'default': #51ddfc,
+    'success': #63cc82,
+    'error': #e4757a,
+    'warning': #fd7856,
+    'info': #927bc1,
+);
+
+// button color light
+
+$button-light:(
+    'default': lighten(#51ddfc, 20%),
+    'success': lighten(#63cc82, 20%),
+    'error': lighten(#e4757a, 20%),
+    'warning': lighten(#fd7856, 20%),
+    'info': lighten(#927bc1, 20%),
+);
+
