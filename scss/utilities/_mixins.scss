@@ -4,3 +4,14 @@
 
 
 
+// @mixin btn-color($map) {
+// @each $button-colours, $color in $map {
+//     &-#{$button-color} {
+//         background-color: $color;
+//     }
+//     &:hover{
+//         background-color: lighten($color,20%);
+//     }
+// }
+// }
+

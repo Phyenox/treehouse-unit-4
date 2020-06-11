@@ -442,7 +442,7 @@ a {
 .btn {
   margin-top: 15px;
   width: 100%;
-  color: tomato;
+  color: #fff;
   border: none;
   padding: 10px 0;
   text-transform: uppercase;
@@ -451,7 +451,7 @@ a {
 
 /* line 17, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .default {
-  background-color: tomato;
+  background-color: #51ddfc;
 }
 
 /* line 21, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
@@ -466,7 +466,7 @@ a {
 
 /* line 29, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .success {
-  background-color: tomato;
+  background-color: #63cc82;
 }
 
 /* line 33, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
@@ -525,7 +525,7 @@ a {
 
 /* line 23, ../../../coding-projects/code/treehouse-unit-4/scss/components/_navigation.scss */
 .nav-link:hover {
-  color: tomato;
+  color: #fff;
   background-color: #58e1c1;
 }
 

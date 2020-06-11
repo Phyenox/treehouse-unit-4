@@ -10,12 +10,22 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover {
+      background-color: $button-color-light;
+    }
   }
   
-
+  @media (min-width: $brk-wide) {
+  .btn {
+    padding: 10px 30px;
+  }
+  & + .btn {
+    margin-left: 10px;
+  }
+}
 
   .default {
-    background-color: #51ddfc;
+    background-color: $color-secondary;
   }
   
   .error {
