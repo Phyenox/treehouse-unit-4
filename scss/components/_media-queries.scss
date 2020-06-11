@@ -79,6 +79,11 @@
       flex-basis: 100%;
     }
     
+    
+    .btn + .btn {
+      margin-left: 10px;
+    }
+    
     .logo {
       margin-left: initial;
       margin-right: initial;
