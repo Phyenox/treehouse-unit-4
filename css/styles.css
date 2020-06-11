@@ -436,7 +436,7 @@ a {
 /*              Components Imports               */
 /* ============================================= */
 /* ============================================= */
-/*              Buttons                          */
+/*           Buttons                          */
 /* ============================================= */
 /* line 5, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .btn {
@@ -449,27 +449,39 @@ a {
   border-radius: 5px;
 }
 
-/* line 17, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 13, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+.btn:hover {
+  background-color: #b5f1fe;
+}
+
+@media (min-width: 768px) {
+  /* line 19, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+}
+
+/* line 24, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 21, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 28, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 25, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 32, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 29, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 36, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 33, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 40, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -513,7 +525,7 @@ a {
   flex-direction: column;
 }
 
-/* line 12, ../../../coding-projects/code/treehouse-unit-4/scss/components/_navigation.scss */
+/* line 10, ../../../coding-projects/code/treehouse-unit-4/scss/components/_navigation.scss */
 .nav-link {
   text-align: center;
   border-radius: 5px;
@@ -523,10 +535,23 @@ a {
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
-/* line 23, ../../../coding-projects/code/treehouse-unit-4/scss/components/_navigation.scss */
+/* line 20, ../../../coding-projects/code/treehouse-unit-4/scss/components/_navigation.scss */
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
+}
+
+@media (min-width: 768px) {
+  /* line 27, ../../../coding-projects/code/treehouse-unit-4/scss/components/_navigation.scss */
+  .nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 31, ../../../coding-projects/code/treehouse-unit-4/scss/components/_navigation.scss */
+  .nav-link {
+    flex-basis: 100px;
+  }
 }
 
 /* ============================================= */
@@ -729,25 +754,11 @@ a {
   .col-12 {
     flex-basis: 100%;
   }
-  /* line 82, ../../../coding-projects/code/treehouse-unit-4/scss/components/_media-queries.scss */
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  /* line 88, ../../../coding-projects/code/treehouse-unit-4/scss/components/_media-queries.scss */
-  .nav-link {
-    flex-basis: 100px;
-  }
-  /* line 92, ../../../coding-projects/code/treehouse-unit-4/scss/components/_media-queries.scss */
-  .btn {
-    padding: 10px 30px;
-  }
-  /* line 96, ../../../coding-projects/code/treehouse-unit-4/scss/components/_media-queries.scss */
+  /* line 83, ../../../coding-projects/code/treehouse-unit-4/scss/components/_media-queries.scss */
   .btn + .btn {
     margin-left: 10px;
   }
-  /* line 100, ../../../coding-projects/code/treehouse-unit-4/scss/components/_media-queries.scss */
+  /* line 87, ../../../coding-projects/code/treehouse-unit-4/scss/components/_media-queries.scss */
   .logo {
     margin-left: initial;
     margin-right: initial;
