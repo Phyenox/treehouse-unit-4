@@ -8,4 +8,10 @@
     margin-right: auto;
 }
 
+@each $theme, $color in $themes {
+    .theme-#{$theme} {
+        color: $color;
+    }
+}
+
 
