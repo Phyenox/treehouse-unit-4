@@ -23,7 +23,7 @@
   }
 }
 
-@media (min-width: $brk-wide) {
+@media #{$brk-wide} {
   .nav {
     flex-direction: row;
     justify-content: flex-end;

@@ -11,33 +11,52 @@
     text-transform: uppercase;
     border-radius: 5px;
     &:hover {
-      background-color: $button-color-light;
+      background-color: $default-lit;
+    }
+}  
+  @media #{$brk-wide} {
+    .btn {
+      padding: 10px 30px;
+
+    & + .btn {
+      margin-left: 10px;
+    }
     }
   }
-  
-  @media (min-width: $brk-wide) {
-  .btn {
-    padding: 10px 30px;
-  }
-}
+
 
   .default {
     background-color: $color-secondary;
+      &:hover {
+        background-color: $default-lit;
+      }
   }
   
   .error {
     background-color: #e4757a;
+      &:hover {
+        background-color: $error-lit;
+      }
   }
   
   .info {
-    background-color: #927bc1;
+      background-color: #927bc1;
+      &:hover {
+        background-color: $info-lit;
+      }
   }
   
   .success {
-    background-color: #63cc82;
+      background-color: #63cc82;
+      &:hover {
+        background-color: $success-lit;
+      }
   }
   
   .warning {
     background-color: #fd7856;
+      &:hover {
+        background-color: $warning-lit;
+      }
   }
   

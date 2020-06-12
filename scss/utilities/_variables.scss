@@ -1,15 +1,28 @@
 // ================================================
-// Variables  --
+// Variables  
 // ================================================
 
 // colors
 
 $white: #fff;
-
 $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
-$button-color-light: lighten($color-secondary, 20%);
+
+// Button colors, Lighten
+
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning: #fd7856;
+
+$default-lit: lighten($color-secondary, 10%);
+$error-lit: lighten($error, 10%);
+$info-lit: lighten($info, 10%);
+$success-lit: lighten($success, 10%);
+$warning-lit: lighten($warning, 10%);
+
 
 // Media Query Breakpoint
 
-$brk-wide: 768px;
+$brk-wide: '(min-width: 768px)';
+
