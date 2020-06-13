@@ -8,11 +8,14 @@
     margin-right: auto;
 }
 
-@each $theme, $color in $themes {
-    .theme-#{$theme} {
-        color: $color;
-    }
-}
+//Didnt work  (Grid theme colors)
+// @mixin themes($map) {
+//     @each $theme, $color in $map {
+//         &-#{$theme} {
+//             color: $color;
+//         }
+//     }
+// }
 
 
 
