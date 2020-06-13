@@ -5,6 +5,7 @@
 // colors
 
 $white: #fff;
+$color-text: #777;
 $color-primary: #58e1c1;
 $color-secondary: #51ddfc;
 
@@ -20,7 +21,6 @@ $themes: (
 'col-12':#80e8d1,
 );
 
-
 // Button colors, Lighten
 
 $error: #e4757a;
@@ -33,7 +33,6 @@ $error-lit: lighten($error, 10%);
 $info-lit: lighten($info, 10%);
 $success-lit: lighten($success, 10%);
 $warning-lit: lighten($warning, 10%);
-
 
 // Media Query Breakpoint
 

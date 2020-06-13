@@ -500,52 +500,52 @@ a {
   }
 }
 
-/* line 28, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 27, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 30, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 29, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .default:hover {
   background-color: #83e7fd;
 }
 
-/* line 35, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 34, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 37, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 36, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .error:hover {
   background-color: #eca0a3;
 }
 
-/* line 42, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 41, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 44, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 43, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .info:hover {
   background-color: #af9ed1;
 }
 
-/* line 49, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 48, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 51, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 50, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .success:hover {
   background-color: #89d9a1;
 }
 
-/* line 56, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 55, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
 
-/* line 58, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
+/* line 57, ../../../coding-projects/code/treehouse-unit-4/scss/components/_buttons.scss */
 .warning:hover {
   background-color: #fea088;
 }
@@ -631,7 +631,7 @@ a {
   max-height: 100%;
 }
 
-/* line 14, ../../../coding-projects/code/treehouse-unit-4/scss/components/_images.scss */
+/* line 12, ../../../coding-projects/code/treehouse-unit-4/scss/components/_images.scss */
 .img-frame {
   display: block;
   margin-left: auto;
@@ -642,7 +642,7 @@ a {
   border: 1px solid #ccc;
 }
 
-/* line 24, ../../../coding-projects/code/treehouse-unit-4/scss/components/_images.scss */
+/* line 20, ../../../coding-projects/code/treehouse-unit-4/scss/components/_images.scss */
 .img-logo {
   display: block;
   margin-left: auto;
